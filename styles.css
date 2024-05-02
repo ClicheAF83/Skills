@@ -1,0 +1,111 @@
+#skillslist {
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 5px;
+    align-content: center;
+    vertical-align: middle;
+    
+  }
+  
+  #skillslist li {
+    border: 5px solid brown;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+@media (max-width = 600px) {
+    #skillslist {
+        display:flex;
+        flex-direction: column;
+    }
+}
+header {
+    background-color: bisque;
+  }
+#introduction {
+    background-color: antiquewhite;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+  #menu a.active {
+    color: #fff;
+    background-color: #000;
+  }
+
+#contacts {
+    padding-left: 10px;
+    background-color: beige;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+#skills {
+    background-color: rgb(245, 231, 214);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1rem;
+
+   
+}
+#social-links {
+    padding: 1rem;
+    list-style-type: none;
+
+    
+}
+  #social-links li{
+    display: inline-block;
+    padding: 1rem 1rem;
+    margin: bottom 10px;
+    
+}
+h2 {
+    font-weight: bold;
+    color: black;
+    border: blue;
+}
+.topnav {
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    
+
+}
+#nav {
+    border-radius: 0px solid black;
+    margin: 0px;
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+#nav li {
+    display: inline-block;
+    border: 0px solid rgb(65, 63, 63);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    color: black;
+    font-size:medium;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+#uppermost {
+    text-align: center;
+}
+
+#child {
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex: content;
+    font-weight: 200;
+}
